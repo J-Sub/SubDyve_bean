@@ -1,0 +1,16 @@
+# 실행 중 생성되는 산출물 (run_pipeline.sh 로 재생성)
+result_*/
+plots_*/
+logs/
+source_SUBDYVE/SSM/results/
+source_SUBDYVE/SSM/logs/
+source_SUBDYVE/Network/
+source_SUBDYVE/SUBMINE/data/*/FP_*.pickle
+
+# Python 캐시
+__pycache__/
+*.pyc
+
+# Claude Code 관련 파일은 저장소에 올리지 않음
+.claude/
+CLAUDE.md
